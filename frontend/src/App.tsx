@@ -1,12 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
-import './styles/App.css';
 
-import Navbar from './components/Navbar'
+import Router from './Routes';
 
 function App() {
   return (
-    <Navbar />
+    <Router />
   );
 }
 
