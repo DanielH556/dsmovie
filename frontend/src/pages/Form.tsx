@@ -1,3 +1,5 @@
+import '../styles/Form.css'
+
 const movie = {
   id: 1,
   image: "https://www.themoviedb.org/t/p/w533_and_h300_bestv2/jBJWaqoSCiARWtfV0GlqHrcdidd.jpg",

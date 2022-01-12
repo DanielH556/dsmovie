@@ -1,5 +1,12 @@
+import Pagination from "./Pagination"
+import MovieCard from "components/MovieCard"
+
 export default function Landing() {
   return(
-    <h1>Boy</h1>
+    <div>
+      <Pagination />
+
+      <MovieCard />
+    </div>
   )
 }
