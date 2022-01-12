@@ -11,7 +11,7 @@ const movie = {
 export default function InsertMovie() {
   return(
     <div className="dsmovie-form-container">
-    <img className="dsmovie-movie-card-image" src="url" alt="The Witcher" />
+    <img className="dsmovie-movie-card-image" src={`${movie.image}`} alt="The Witcher" />
     <div className="dsmovie-card-bottom-container">
         <h3>"The Witcher"</h3>
         <form className="dsmovie-form">

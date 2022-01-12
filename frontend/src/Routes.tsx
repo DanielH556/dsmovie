@@ -12,7 +12,9 @@ export default function Router() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Landing />}></Route>
-        <Route path="/form" element={<InsertMovie />}></Route>
+        <Route path="/form">
+          <Route path=":movieId" element={<InsertMovie />}/>
+        </Route>
         <Route path="/catalog" element={<Pagination />}></Route>
       </Routes>
     </BrowserRouter>
